@@ -4,7 +4,7 @@ A Sketch module to handle image downloads and insertion in documents
 
 ## Usage
 
-## `insertImage(url, parentLayer)`
+### `insertImage(url, parentLayer)`
 
 Inserts a bitmap layer in `parentLayer` with the contents of the image at `url`.
 Returns the image layer as a Promise, so you can chain the function.
@@ -26,3 +26,8 @@ insertImage('https://source.unsplash.com/random', sketch.getSelectedDocument().s
   console.log(`Inserted layer: ${layer.name}`)
 })
 ```
+
+### `getImageFromURL(url)`
+
+Downloads the image at `url` and returns a path to the local file, ready to use in your `DataProvider` plugins.
+Returns the image path as a Promise, so you can chain the function.
