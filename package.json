@@ -1,0 +1,17 @@
+{
+  "name": "sketch-image-downloader",
+  "version": "1.0.0",
+  "description": "A Sketch module to handle image downloads and insertion in documents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sketch"
+  ],
+  "author": "Ale Muñoz",
+  "license": "MIT",
+  "dependencies": {
+    "@skpm/fs": "^0.2.5"
+  }
+}
