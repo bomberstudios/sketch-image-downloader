@@ -11,6 +11,7 @@
   ],
   "author": "Ale Muñoz",
   "license": "MIT",
+  "repository": "https://github.com/bomberstudios/sketch-image-downloader.git",
   "dependencies": {
     "@skpm/fs": "^0.2.5"
   }
