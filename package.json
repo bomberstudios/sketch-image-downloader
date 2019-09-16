@@ -1,6 +1,6 @@
 {
   "name": "sketch-image-downloader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Sketch module to handle image downloads and insertion in documents",
   "main": "index.js",
   "scripts": {
