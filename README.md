@@ -31,3 +31,21 @@ insertImage('https://source.unsplash.com/random', sketch.getSelectedDocument().s
 
 Downloads the image at `url` and returns a path to the local file, ready to use in your `DataProvider` plugins.
 Returns the image path as a Promise, so you can chain the function.
+
+```
+import sketch from 'sketch'
+import getImageFromURL from 'sketch-image-downloader'
+
+getImageFromURL('https://source.unsplash.com/random')
+```
+
+With promises:
+
+```
+import sketch from 'sketch'
+import getImageFromURL from 'sketch-image-downloader'
+
+getImageFromURL('https://source.unsplash.com/random').then(path => {
+  console.log(`Image saved to ${path}`)
+})
+```
